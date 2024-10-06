@@ -1,151 +1,73 @@
-# README template
 
-> If you need more information about how to fill in this template, read the accompanying [guide](./guide_readme.md).
->
-> This template includes writing instructions and boilerplate text that you can customize, use as-is, or completely replace with your own text. This text is indicated in {curly brackets}. Make sure you replace the placeholders with your own text.
+# Piedmont Puddle Jumpers - PACE Challenge
+## 2024 Nasa Space Apps Challenge - Charlotte
 
-## {Project} logo and badges
+## Biocircuit Learning Auto-Generated Educational Material
+## nasaspaceapps2024clt_PACE_ppj
+[{Biocircuit Learning}](https://biocircuitlearning.co/)
 
-{This section is optional. Embed an image of the project logo and include links to relevant badges in the README.}
-
-## {Project Name}
-
-{Include the project URL and project owner name underneath the project name if applicable.}
-
-## Table of contents
-
-{This section is optional.}
-
-1. Heading 1
-
-2. Heading 2
-
-3. Heading 3...
+### Team Members:
+Aankan D.
+Sushanth D.
+Spencer H.
+John E.
 
 ## Project description
 
-{The README template guide includes information on how to write a project description and a project description. Here are some examples of effective phrases for describing a project.}
-
-With _{Project Name}_ you can _{verb}_ _{noun}_...
-
-_{Project Name}_ helps you _{verb}_ _{noun}_...
-
-Unlike _{alternative}_, _{Project Name}_ _{verb}_ _{noun}_...
-
-{Include screenshots and/or demo videos if applicable}
+The main branch is not currently worked on as the feature branch instructionalDesign holds prelimary data, code, and output
+In the instructionalDesign branch contains a python notebook that was built and run in google colab. The code is in alpha and will not run without adjustments for api keys
+The website data is housed on the wix;
 
 ## Who this project is for
 
-This project is intended for {target user} who wants to {user objective}.
+This project is intended as an initial conceptual design, utilizing NASA PACE data, NASA Open APIs, and the distilBert and stable-diffusion model, for the ability for educational material to be generated through a combination of NASA API data and Technical Documentation to provide individualized education materials for the purpose and location. This is a submission through the 2024 NASA Space Apps Challenge in Charlotte for the PACE in the Classroom Challenge.
 
 ## Project dependencies
 
-Before using {Project Name}, ensure you have:
+distilBert model: https://huggingface.co/docs/transformers/en/model_doc/distilbert
+Stable-diffusion model: https://huggingface.co/CompVis/stable-diffusion-v1-4
 
-* Prerequisite 1
-* Prerequisite 2
-* Prerequisite 3...
+Before using nasaspaceapps2024clt_PACE_ppj, ensure you:
 
-## Instructions for using {Project Name}
+* Are On the instructionalDesign branch
+* Openai downgrade 
+* Packages found in google colab folder
 
-Get started with {Project Name} by {write the first step a user needs to start using the project. Use a verb to start.}.
+## Instructions for using Biocircuit Learning Auto-Generated Educational Material
 
-### Install {Project Name}
+Get started with Biocircuit Learning Auto-Generated Educational Material by forking a copy to work on the data. The code was developed in google colab.
 
-1. {Write the step here.}
+To develop the output slides, utilize the quarto markdown file to render.
 
-    {Explanatory text here}
-
-    {Optional: Include a code sample or screenshot that helps your users complete this step}
-
-2. {Write the step here.}
-
-    a. {Substep 1}
-
-    b. {Substep 2}
-
-### Configure {Project Name}
-
-1. {Write the step here.}
-2. {Write the step here.}
-
-### Run {Project Name}
-
-1. {Write the step here.}
-2. {Write the step here.}
-
-### Troubleshoot {Project Name}
-
-1. {Write the step here.}
-2. {Write the step here.}
-
-<table>
-  <tr>
-   <td>
-    Issue
-   </td>
-   <td>
-    Solution
-   </td>
-  </tr>
-  <tr>
-   <td>
-    {Describe the issue here}
-   </td>
-   <td>
-    {Write solution here}
-   </td>
-  </tr>
-  <tr>
-   <td>
-    {Describe the issue here}
-   </td>
-   <td>
-    {Write solution here}
-   </td>
-  </tr>
-  <tr>
-   <td>
-    {Describe the issue here}
-   </td>
-   <td>
-    {Write solution here}
-   </td>
-  </tr>
-</table>
-
-Other troubleshooting supports:
-
-* {Link to FAQs}
-* {Link to runbooks}
-* {Link to other relevant support information}
 
 ## Contributing guidelines
 
-{Include a link to your contributing guide here. If you do not have a contributing guide, incorporate the information in the README.}
+To contribute, please open an issue or fork to create a pull request for approval
 
-## Additional documentation
-
-{Include links and brief descriptions to additional documentation. Examples provided in README template guide.}
-
-For more information:
-
-* Reference link 1
-* Reference link 2
-* Reference link 3...
-
-## How to get help
-
-{Include links and brief descriptions for support resources. Examples provided in README template guide.}
-
-* Reference link 1
-* Reference link 2
-* Reference link 3...
 
 ## Terms of use
 
-{Project Name} is licensed under {link to license file}.
+NASA Source Data: https://sti.nasa.gov/disclaimers/#:~:text=NASA%20does%20not%20grant%20exclusive,other%20rights%20in%20NASA%20material.
+Chat GPT4: https://openai.com/policies/row-terms-of-use/
+## Resources
+@InProceedings{Rombach_2022_CVPR,
+    author    = {Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj\"orn},
+    title     = {High-Resolution Image Synthesis With Latent Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {10684-10695}
+}
+
+@inproceedings{sanh2019distilbert,
+  title={DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  author={Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  booktitle={NeurIPS EMC^2 Workshop},
+  year={2019}
+}
 
 ---
 
 > Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=Readme) to give feedback on this template.
+
+
