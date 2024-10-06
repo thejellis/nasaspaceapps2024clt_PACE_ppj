@@ -14,8 +14,8 @@ John E.
 
 ## Project description
 
-The main branch is not currently worked on as the feature branch instructionalDesign holds prelimary data, code, and output
-In the instructionalDesign branch contains a python notebook that was built and run in google colab. The code is in alpha and will not run without adjustments for api keys
+The main branch contains the folder Instructional Design holds prelimary data, code, and output. These files include the python notebook and the R script to generate the output.
+In the instructional Design folder contains a python notebook that was built and run in google colab. The code is in alpha and will not run without adjustments for api keys
 The website data is housed on the wix;
 
 ## Who this project is for
@@ -37,12 +37,14 @@ Before using nasaspaceapps2024clt_PACE_ppj, ensure you:
 
 Get started with Biocircuit Learning Auto-Generated Educational Material by forking a copy to work on the data. The code was developed in google colab.
 
-To develop the output slides, utilize the quarto markdown file to render.
+To develop the output slides, access through the lessons folder.
+To develop from the initial model concepts, access through the .ipynb file in the Instructional Learning folder
 
 
 ## Contributing guidelines
 
 To contribute, please open an issue or fork to create a pull request for approval
+
 
 
 ## Terms of use
