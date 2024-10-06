@@ -12,6 +12,8 @@ Sushanth D.
 Spencer H.
 John E.
 
+Website content and development by AD, SD, and SH
+
 ## Project description
 
 The main branch contains the folder Instructional Design holds prelimary data, code, and output. These files include the python notebook and the R script to generate the output.
