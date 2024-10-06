@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Puzzle</title>
+    <style>
+        #puzzle {
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            grid-template-rows: repeat(5, 100px);
+            gap: 2px;
+        }
+        .piece {
+            width: 100px;
+            height: 100px;
+            background-size: 500px 500px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        #message {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: gray;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .dimmed {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="puzzle"></div>
+    <div id="message">YOU FINISHED</div>
+
+    <script>
+        const imagePath = '/img/gulfcoast.jpg';
+        const puzzle = document.getElementById('puzzle');
+        const message = document.getElementById('message');
+        const pieces = [];
+
+        for (let i = 0; i < 25; i++) {
+            const piece = document.createElement('div');
+            piece.classList.add('piece');
+            piece.style.backgroundImage = `url(${imagePath})`;
+            piece.style.backgroundPosition = `${-(i % 5) * 100}px ${-Math.floor(i / 5) * 100}px`;
+            piece.draggable = true;
+            piece.addEventListener('dragstart', dragStart);
+            piece.addEventListener('dragover', dragOver);
+            piece.addEventListener('drop', drop);
+            pieces.push(piece);
+            puzzle.appendChild(piece);
+        }
+
+        function dragStart(e) {
+            e.dataTransfer.setData('text/plain', pieces.indexOf(e.target).toString());
+        }
+
+        function dragOver(e) {
+            e.preventDefault();
+        }
+
+        function drop(e) {
+            e.preventDefault();
+            const draggedIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
+            const targetIndex = pieces.indexOf(e.target);
+            const draggedPiece = pieces[draggedIndex];
+            const targetPiece = pieces[targetIndex];
+
+            const tempPosition = draggedPiece.style.backgroundPosition;
+            draggedPiece.style.backgroundPosition = targetPiece.style.backgroundPosition;
+            targetPiece.style.backgroundPosition = tempPosition;
+
+            // Add animation effect
+            draggedPiece.style.transform = 'scale(1.1)';
+            targetPiece.style.transform = 'scale(1.1)';
+
+            setTimeout(() => {
+                draggedPiece.style.transform = 'scale(1)';
+                targetPiece.style.transform = 'scale(1)';
+                checkIfSolved();
+            }, 300);
+        }
+
+        function scramble() {
+            for (let i = pieces.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const tempPosition = pieces[i].style.backgroundPosition;
+                pieces[i].style.backgroundPosition = pieces[j].style.backgroundPosition;
+                pieces[j].style.backgroundPosition = tempPosition;
+            }
+        }
+
+        function checkIfSolved() {
+            for (let i = 0; i < pieces.length; i++) {
+                const correctPosition = `${-(i % 5) * 100}px ${-Math.floor(i / 5) * 100}px`;
+                if (pieces[i].style.backgroundPosition !== correctPosition) {
+                    return;
+                }
+            }
+            message.style.display = 'block';
+            puzzle.classList.add('dimmed');
+        }
+
+        scramble();
+    </script>
+</body>
+</html>
