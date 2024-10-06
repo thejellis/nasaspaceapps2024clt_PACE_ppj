@@ -1,0 +1,601 @@
+    04             The Earth Observer                               July - August 2015                                   Volume 27, Issue 4
+
+
+
+                      NASA Sets the PACE for Advanced Studies of
+feature articles
+                      Earth’s Changing Climate
+                      P. Jeremy Werdell, NASA’s Goddard Space Flight Center, jeremy.werdell@nasa.gov
+                      Emmanuel Boss, University of Maine, emmanuel.boss@maine.edu
+                      Lorraine Remer, University of Maryland, Baltimore County, remer@umbc.edu
+                      Brian Cairns, Goddard Institute for Space Studies, brian.cairns@nasa.gov
+
+                   PACE provides a stra-          Introduction
+                   tegic climate continuity
+                                                  Spend any amount of time observing Earth’s oceans and one thing becomes readily
+                   mission that will col-
+                                                  apparent: Ocean water is anything but clear; its color varies immensely, depending
+                   lect many global mea-          on exactly where one is looking (e.g., coastal waters are very different than the open
+                   surements essential for        ocean) and what happens to be dissolved or suspended in the water beneath its surface
+                   understanding marine           at that location. Such variations provide the basis for ocean color science. Many par-
+                   and terrestrial biology,       ticulate and dissolved constituents of the near-surface water column absorb and scatter
+                   biogeochemistry, ecol-         light differently in the ultraviolet (UV) and visible (VIS) regions of the electromag-
+                   ogy, and cloud and             netic spectrum. So at its most fundamental level, ocean color science is about relating
+                   aerosol dynamics.              the spectral variations in the UV-VIS marine light field (i.e., differences in the ocean’s
+                                                  color) to the concentrations of the various constituents residing in the sunlit, near-sur-
+                                                  face water column—see How Ocean Color Measurements Are Made on the next page.
+
+                                                  To continue a multidecade record of ocean color measurements, NASA recently
+                                                  approved the Pre-Aerosols, Clouds, and ocean Ecosystems (PACE) mission to enter
+                                                  Pre-Phase A—mission preformulation and conceptual studies. First presented in the
+                                                  2010 NASA plan, Responding to the Challenge of Climate and Environmental Change:
+                                                  NASA’s Plan for a Climate-Centric Architecture for Earth Observations and Applications
+                                                  from Space1, PACE provides a strategic climate continuity mission that will collect
+                                                  many global measurements essential for understanding marine and terrestrial biology,
+                                                  biogeochemistry, ecology, and cloud and aerosol dynamics.
+
+                                                  PACE, the primary sensor for which is currently called the Ocean Color Instrument
+                                                  (OCI), is an ocean color mission but, as its name implies, it will also be used to study
+                                                  important aspects of atmospheric science. Since the mission’s primary focus is ocean
+                                                  color, this article begins with some background on that topic. The origins of the mis-
+                                                  sion, its objectives and scientific questions, its organizational structure, and benefits to
+                                                  society are also addressed.
+
+                                                  In the coming months, pace.gsfc.nasa.gov will be developed and populated with news,
+                                                  updates, educational materials, and oceanic and atmospheric information for inter-
+                                                  ested community members.
+
+                                                  Contributions to Ocean Color
+
+                                                  In addition to dissolved and inorganic material such as salts, ocean water contains a vari-
+                                                  ety of microscopic living organisms, each with their own unique impact on the opti-
+                                                  cal properties of water. In fact, one of the most important components found in ocean
+                                                  water are phytoplankton. These microscopic marine algae form the base of the marine
+                                                  food chain and produce over half of the oxygen we breathe. Phytoplankton also play
+                                                  an important role in converting inorganic carbon in carbon dioxide (CO2) to organic
+                                                  compounds, fueling global ocean ecosystems and driving the oceanic biogeochemical
+                                                  cycles through grazing (i.e., they provide a food source for zooplankton) and through
+                                                  their degradation products and the microbial loop—where bacteria reintroduce dissolved
+                                                  organic carbon (DOC) and nutrients to the trophic system, effectively recycling both
+                                                  back into the food chain. Phytoplankton are therefore a critical part of the ocean’s bio-
+                                                  logical carbon pump, whereby atmospheric CO2 gets sequestered to the deep ocean,
+                                                  and are responsible for roughly half of Earth’s net primary production—the difference
+
+                                                  1
+                                                   To view the report, visit science.nasa.gov/media/medialibrary/2010/07/01/Climate_Architecture_
+                                                  Final.pdf.
+
+The Earth Observer                                  July - August 2015                               Volume 27, Issue 4               05
+between the rate of plant production of useful chemical energy and the rate of their
+
+
+
+
+                                                                                                                                  feature articles
+use of that energy in respiration. However, phytoplankton growth is highly sensitive to
+variations in ocean and atmospheric physical properties, such as upper-ocean stratifica-
+tion and light availability within this mixed layer. Phytoplankton also vary greatly in
+their size, function, response to ecosystem changes or stresses, and nutritional value for
+species higher in the food web. Hence, measurements of
+phytoplankton community composition and their distri-
+butions remains essential for understanding global carbon           How Ocean Color Measurements Are Made
+cycles and how living marine resources are responding to
+                                                                    In simplified terms, here’s how an ocean color
+Earth’s changing climate. All these inorganic and organic
+                                                                    measurement works: An instrument in space,
+substances combine to form the actual optical properties of
+                                                                    such as the PACE Ocean Color Instrument
+the ocean, which ultimately give it its color.
+                                                                    (OCI) described on page 8, measures the spec-
+Ocean Color: An Important Climate Data Record                       tral radiance exiting the top of the atmosphere.
+                                                                    Of the total amount of radiance seen by the sat-
+A key step toward helping scientists understand how the             ellite instrument, only a small portion is actu-
+Earth has responded to its changing climate over time—              ally coming from the ocean; by far the domi-
+and how it may respond in the future—is through the                 nant portion comes from the atmosphere, and
+establishment of high-quality, long-term, global time series        this “noise” effectively hides the desired signal.
+of various geophysical parameters. Given the nature of              To retrieve the portion of the signal exiting the
+the phenomena and the timescales needed to distinguish              water, scientists and programmers apply atmo-
+trends, such measurements will require combining data               spheric correction algorithms that remove the
+from several missions. These climate-quality time series are        radiance contribution from the atmosphere;
+called climate data records (CDRs2), and are being gen-             what remains is the small portion passing
+erated for a variety of geophysical parameters, including           through the ocean surface—the component of
+ocean color.                                                        interest for ocean color measurements. That
+                                                                    radiance is then converted to spectral remote-
+Beginning with the launch of the Sea-viewing Wide                   sensing reflectances, which are essentially the
+Field-of-view Sensor (SeaWiFS3) in 1997, NASA has gen-              ratio of the light coming from the ocean nor-
+erated a continuous record of global ocean color measure-           malized to the light from the sun entering the
+ments—although the proof-of-concept ocean color satel-              ocean. Once these reflectances are known, then
+lite observations date back to 1978—see OCI Builds on               bio-optical algorithms are used to produce esti-
+NASA’s Ocean Color Heritage on page 7. This time series of          mates of geophysical and optical properties,
+remotely sensed quantities provides a valuable data record          such as the near-surface concentration of the
+for studying long-term changes in ocean ecosystems.                 phytoplankton pigment chlorophyll-a and spec-
+Observations of spectral marine inherent optical properties         tral marine inherent optical properties (IOPs).
+(IOPs), the spectral absorption and scattering properties
+of seawater, and the particulate and dissolved constituents
+it contains, can be used to infer the contents of the upper
+ocean, including phytoplankton community composition—see Figure 1. This infor-
+mation is critical for advancing our understanding of biogeochemical oceanic processes
+2
+  The U.S. National Research Council (NRC) defines a CDR as a time series of measurements
+of sufficient length, consistency, and continuity to determine climate variability and change.
+3
+  SeaWiFS flew onboard the Orbview spacecraft, and operated until 2010.
+
+
+                                                                                                 Figure 1. Global image of
+                                                                                                 the Earth’s biosphere as seen
+                                                                                                 by SeaWiFS. For the ocean,
+                                                                                                 the colors indicate the abun-
+                                                                                                 dances of chlorophyll-a, with
+                                                                                                 purple-blue showing low abun-
+                                                                                                 dances and green-yellow-red
+                                                                                                 showing high abundance. For
+                                                                                                 land, the colors show the nor-
+                                                                                                 malized difference vegetation
+                                                                                                 index (NDVI), with brown and
+                                                                                                 green indicating arid and lush
+                                                                                                 regions, respectively. Image
+                                                                                                 credit: GSFC Ocean Biology
+                                                                                                 Processing Group
+
+    06             The Earth Observer                             July - August 2015                                 Volume 27, Issue 4
+
+
+                                             —e.g., carbon exchanges and fluxes, phytoplankton community dynamics, and eco-
+feature articles
+                                             system responses to disturbances.
+
+                                             PACE Science Targets
+
+                                             The PACE science objectives have been described in the PACE Science Definition Team
+                                             Report4. They are the result of decades of experience with requirements developed by
+                                             the ocean color and cloud and aerosol communities. The advanced capabilities of the
+                                             PACE OCI over heritage instruments will extend the current time series of high-qual-
+                                             ity CDRs and answer the science questions listed here, grouped by topic:
+                   The PACE science
+                                             PACE Science Questions
+                   objectives...are the
+                   result of decades         Global ocean ecosystems and climate
+                   of experience with
+                   requirements developed         • What are the standing stocks and compositions of ocean ecosystems? How and
+                   by the ocean color               why are they changing?
+                   and cloud and aerosol          • How and why are ocean biogeochemical cycles changing? How do they influence
+                   communities. The                 the Earth system?
+                   advanced capabilities
+                   of the PACE OCI over           • What are the material exchanges between land and ocean? How do they influence
+                                                    coastal ecosystems and biogeochemistry? How are they changing?
+                   heritage instruments
+                   will extend the current        • How do aerosols influence ocean ecosystems and biogeochemical cycles? How do
+                   time series of high              ocean biological and photochemical processes affect the atmosphere?
+                   quality CDRs.
+                                                  • How do physical ocean processes affect ocean ecosystems and biogeochemistry?
+                                                    How do ocean biological processes influence ocean physics?
+
+                                                  • What is the distribution of both harmful and beneficial algal blooms and how is
+                                                    their appearance and demise related to environmental forcings? How are these
+                                                    events changing?
+
+                                                  • How do changes in critical ocean ecosystem services affect human health and wel-
+                                                    fare? How do human activities affect ocean ecosystems and the services they pro-
+                                                    vide? What science-based management strategies need to be implemented to sus-
+                                                    tain our health and well being?
+
+                                             Coastal ocean ecosystems
+
+                                                  • What are the distributions of habitats and ecosystems and the variability of bio-
+                                                    geochemical parameters at moderate scales and what is the impact on coastal (e.g.,
+                                                    estuarine, tidal wetlands, lakes) biodiversity and other coastal ecosystem services?
+
+                                                  • What is the connectivity between coastal, shelf, and offshore environments?
+
+                                                  • How does the export of terrestrial material affect the composition of phytoplank-
+                                                    ton communities in coastal waters, and how do these in turn affect the cycling of
+                                                    organic matter?
+
+                                                  • How do moderate scale processes (e.g., sedimentation, photodegradation, respira-
+                                                    tion) affect the cycling of terrigenous organic material in the coastal environment?
+
+                                             Aerosols and clouds
+
+                                                  • What are the long-term changes in aerosol and cloud properties and how are
+                                                    these properties correlated with inter-annual climate oscillations?
+
+                                                  • What are the magnitudes and trends of direct aerosol radiative forcing (DARF)
+                                                    and the anthropogenic component of DARF?
+
+                                                  • How do aerosols influence ocean ecosystems and biogeochemical cycles?
+                                             4
+                                                 To view the report, visit decadal.gsfc.nasa.gov/PACE/PACE_SDT_Report_final.pdf.
+
+The Earth Observer                                           July - August 2015                                                     Volume 27, Issue 4         07
+
+
+
+
+                                                                                                                                                           feature articles
+                                         OCI Builds on NASA’s Ocean Color Heritage
+   The PACE Ocean Color Instrument (OCI) builds on a firm foundation of ocean color observations at NASA
+   that includes a 17-year continuous record of satellite ocean color observations, and many more years of expe-
+   rience (see graphs below). The Coastal Zone Color Scanner (CZCS), launched in 1978 onboard Nimbus-7,
+   was the first instrument that measured ocean color from space. Intended to be a “proof-of-concept” mission,
+   CZCS did that—and much more. CZCS observations ceased in 1986, but research continued for many years
+   thereafter that laid the groundwork for the missions that followed*.
+
+   While some climate data records (CDRs) (e.g., ozone) are continuous from the Nimbus era to the present,
+   such is not the case with ocean color. There was an 11-year gap between the end of CZCS observations and
+   the next NASA ocean color mission**: the Sea-viewing Wide Field-of-view Sensor (SeaWiFS), launched in
+   1997 onboard the SeaStar (later renamed Orbview-2) satellite. Despite a challenging start—SeaStar was ini-
+   tially deployed upside down!—SeaWiFS proved itself resilient and went on to provide quality global ocean-
+   color observations for over a decade.
+
+   Ocean color measurements continued into the NASA Earth Observing System (EOS) era. Two of the flag-
+   ship EOS missions carried the Moderate Resolution Imaging Spectroradiometer (MODIS): Terra, launched
+   in 1999, and Aqua, launched in 2002. More recently, the Visible Infrared Imaging Radiometer Suite
+   (VIIRS), launched in 2012 onboard the Suomi National Polar-orbiting Partnership (NPP), also obtains
+   ocean-color measurements. VIIRS will also fly on upcoming Joint Polar Satellite System missions, the first of
+   which (JPSS-1) is scheduled for launch in late 2016.
+
+                             0.20 a.                                40
+                                                                                             These graphs illustrate the seventeen-year, multimis-
+                             0.18
+     Chla (mg m-3)
+
+
+
+
+                                                                    20                       sion record of chlorophyll-a averaged globally for the
+                                                                          Chla (%)
+
+
+
+
+                             0.16                                                            latitudinal band 40° S to 40° N for SeaWiFS (black),
+                                                                                             MODIS onboard Aqua (blue), and VIIRS (red). The
+                             0.14                                   0                        top graph plots the independent record from each mis-
+                             0.12                                                            sion, with the multi-mission mean chlorophyll-a con-
+                                                                    -20                      centration for the region (horizontal black line). The
+                             0.10                                                            bottom graph plots monthly anomalies after subtraction
+                                 Jan     Jan    Jan    Jan    Jan                            of the monthly climatological mean (SeaWiFS relative
+                                1998    2002   2006   2010   2014                            to the SeaWiFS climatology, and MODIS and VIIRS
+                             0.04 b.                                                         relative to their respective climatologies), with the aver-
+     Chla Anomaly (mg m-3)
+
+
+
+
+                                                                    20                       age difference between SeaWiFS and MODIS-Aqua
+                                                                          Chla Anomaly (%)
+
+
+
+
+                             0.02                                                            over the common mission lifetime (grey). The multi-
+                                                                    10                       variate El Niño Southern Oscillation index is inverted
+                             0.00                                   0                        and scaled (green diamonds) to match the range of the
+                                                                                             chlorophyll-a anomalies. Image credit: Bryan Franz,
+                                                                    -10
+                             -0.02                                                           NASA’s Goddard Space Flight Center
+                                                                    -20
+                             -0.04
+                                  Jan    Jan    Jan    Jan    Jan
+                                 1998   2002   2006   2010   2014
+
+   * To learn more about the ocean-color instruments that followed, click on the Missions & Sensors tab on the left menu
+   bar at oceancolor.gsfc.nasa.gov.
+
+   **This story is told in Chapter 5 of The Color of the Atmosphere with the Ocean Below: A History of NASA’s Ocean Color
+   Missions, by Jim Acker. The book provides a summary of the development of NASA’s ocean color missions with many
+   references to “source” material.
+
+
+PACE Mission Requirements
+                                                                                                                               While some climate
+Responding to mission objectives and finding ways to answer the scientific questions                                           data records (CDRs)
+is what drives mission requirements. NASA will incorporate many of the features and                                            (e.g., ozone) are
+“lessons learned” from heritage spectrometers flown by NASA as well as those flown                                             continuous from the
+by international partners5 into the OCI instrument design. A lesson learned from the
+                                                                                                                               Nimbus era to the
+5
+  Examples would include the European Space Agency’s Medium Resolution Imaging Spectrometer                                    present, such is not the
+(MERIS) instrument that flew onboard Envisat and the Japanese Aerospace Exploration Agency’s
+Ocean Color and Temperature Scanner (OCTS), and Global Imager (GLI) instruments that flew                                      case with ocean color.
+onboard the Advanced Earth Observation Satellite (ADEOS) and ADEOS II, respectively.
+
+    08             The Earth Observer                             July - August 2015                                 Volume 27, Issue 4
+
+
+                                               SeaWiFS era, for example, is the benefit of an ocean color instrument that can view the
+feature articles
+                                               full Moon each month from its Earth view port. The reflectance of the Moon can be
+                                               accurately modeled, providing an invaluable temporal calibration source for the ocean
+                                               color instrument. As of this early stage in the project, the key minimum threshold mis-
+                                               sion and OCI instrument characteristics and capabilities are:
+
+                                                   • Earth surface spatial resolution at nadir of 1 km2 (~0.4 mi2) for all science bands.
+
+                                                   • Sun-synchronous polar orbit with an equatorial crossing time near local noon
+                                                     (1100-1300).
+
+                                                   • Two-day global coverage of science measurements to a solar zenith angle of 75°
+                                                     and sensor view zenith angles not exceeding 60°—with mitigation of sun glint.
+
+                                                   • A spectral range from 350 to 800 nm at 5-nm resolution, plus near-infrared
+                                                     bands at 865 and 940 nm and four or more shortwave infrared bands spanning
+                                                     1240, 1378, 1640, 1880, 2130, and/or 2250 nm.
+                   While PACE is pre-
+                   dominantly an “ocean            • Downlink and storage of the complete 5-nm resolution data from spacecraft
+                   color” mission, it will           to ground.
+                   also have secondary
+                                                   • Monthly characterization of instrument detector and optical component changes
+                   objectives—and possi-
+                                                     using lunar observations through the Earth-viewing port that illuminate all sci-
+                   bly a secondary instru-
+                                                     ence detector elements.
+                   ment. An additional
+                   overarching goal for the    Organizational Requirements and Responsibilities
+                   mission is to help deter-
+                                               PACE is being implemented as a NASA Class C 6 mission with a notional launch date
+                   mine the roles of the
+                                               in the 2022–2023 timeframe and minimum mission duration of three years, with
+                   ocean and atmosphere        orbit maintenance capabilities for 10 years. PACE is designated as a design-to-cost
+                   in global biogeochemi-      mission, meaning that it has a fixed budget cap of $805 million. Under this fund-
+                   cal cycling and how         ing framework, science returns from the mission will need to be optimized through
+                   perturbations to Earth’s    a series of trade and feasibility studies that encompass the OCI, a potential polarim-
+                   energy balance both         eter (see PACE: Measuring More than Ocean Color below), the spacecraft and launch
+                   affect and are affected     vehicle, the ground and science data processing segments, pre- and post-launch, sci-
+                   by rising atmospheric       ence and calibration/validation programs, and all other components of system integra-
+                   CO2 levels and Earth’s      tion and mission management.
+                   changing climate.           Full responsibility for the PACE mission was directed to NASA’s Goddard Space
+                                               Flight Center (GSFC) in December 2014. GSFC will design and build the OCI,
+                                               as well as maintain responsibility for project management, safety and mission
+                                               assurance, mission operations and ground systems, launch vehicle/spacecraft/
+                                               instrument payload integration and testing, and OCI calibration, validation, and
+                                               science data processing.
+
+                                               PACE: Measuring More than Ocean Color
+
+                                               While PACE is predominantly an “ocean color” mission, it will also have secondary
+                                               objectives—and possibly a secondary instrument. An additional overarching goal for
+                                               the mission is to help determine the roles of the ocean and atmosphere in global bio-
+                                               geochemical cycling and how perturbations to Earth’s energy balance both affect and
+                                               are affected by rising atmospheric CO2 levels and Earth’s changing climate.
+
+                                               The PACE mission will contribute to the continuation of atmospheric CDRs
+                                               as well as those for ocean color. The OCI will allow continuation of “heri-
+                                               tage” aerosol measurements made using the Moderate Resolution Imaging
+                                               Spectroradiometer (MODIS) onboard Terra and Aqua and the Ozone
+                                               Monitoring Instrument (OMI) onboard Aura. It will also provide additional
+                                               6
+                                                To learn more about the classifications used to categorize NASA missions, see Appendix B of
+                                               “NASA Procedural Requirements (NPR) 8705.4,” which can be found at nodis3.gsfc.nasa.gov/
+                                               npg_img/N_PR_8705_0004_/N_PR_8705_0004_.pdf.
+
+The Earth Observer                                         July - August 2015                                         Volume 27, Issue 4                09
+
+
+
+
+                                                                                                                                                    feature articles
+Figure 2. Comparison of PACE spectral coverage with heritage U.S. ocean color sensors. The PACE instrument will provide continuous high-
+spectral-resolution observations (5 nm) from the UV to NIR (350 – 800 nm), plus several short-wave infrared (SWIR) bands to support cloud and
+aerosol science and ocean color atmospheric correction. Image credit: PACE Science Definition Team Report (see Footnote 4 for access information)
+
+
+characterization of aerosol particles because its spectral range will include short-
+wave infrared wavelengths—see Figure 2. This will enable continuation of
+MODIS-like and OMI-like characterization of aerosol properties, and MODIS-
+like measurements of water vapor and retrievals of cloud optical properties. These are
+the key atmospheric components affecting our ability to predict climate change as
+they contribute the largest uncertainties in our understanding of climate forcings and                           A number of possible
+cloud feedbacks for an increasingly warmer planet. The interactions between these                                enhancements to the
+species are key to such understanding, as aerosols, water vapor, and clouds remain                               base PACE mission have
+intertwined within the hydrologic cycle because most cloud droplets are seeded by                                been proposed. While all
+small aerosol particles called cloud condensation nuclei. Changes in the amount, type,                           of these enhancements
+and distribution of aerosols, therefore, can alter the micro- and macro-physical charac-                         would make the mission
+teristics of clouds. Furthermore, natural and anthropogenic changes to the aerosol sys-                          more scientifically
+tem may affect clouds and precipitation, which can alter where, when, and how much                               robust, they come
+precipitation may fall.                                                                                          with possible technical
+                                                                                                                 tradeoffs...
+Possible Enhancements to OCI
+
+A number of possible enhancements to the base PACE mission have been proposed.
+While all of these enhancements would make the mission more scientifically robust,
+they come with possible technical tradeoffs: Enhancements might result in delays in
+launch schedule; decreasing the mission’s technology readiness level7 (which implies
+more risk of failure); increased payload mass leading to increased power requirements;
+7
+ Technology readiness levels are a means to classify how “ready” a given system component or
+instrument is. For more on how the Earth Science Technology Office defines them in the con-
+text of NASA missions, see esto.nasa.gov/technologists_trl.html.
+
+    10             The Earth Observer                           July - August 2015                                Volume 27, Issue 4
+
+
+                                              changes in data rates, data volume, signal-to-noise ratios, spectral resolution, and/or
+feature articles
+                                              spatial resolution; higher probability of image artifacts (e.g., striping); and more exten-
+                                              sive pre- and post-launch calibration efforts. All of these might have an impact on the
+                                              cost of the mission.
+
+                                              OCI Upgrades
+
+                                              The possible enhancements to the PACE OCI that are under consideration would push
+                                              beyond the minimum mission requirements and enable the mission to address some of
+                                              the more advanced science questions. Possibilities include reducing ground spatial reso-
+                   PACE may optionally        lution of OCI to 50, 100, or 250 m (~164, 328, or 820 ft, respectively) to enable fine-
+                   carry a multi-angle        scale coastal and inland water retrievals; extending the spectral range of the instrument
+                   polarimeter as a           down to 300 nm to better discriminate between color contributions from dissolved
+                   secondary instrument,      organic matter and absorbing aerosols; and, reducing spectral resolution to less than 5
+                   which would add            nm and/or enabling spectral subsampling between 1 and 2 nm in particular regions of
+                   significant capabilities   the spectrum (e.g., over the chlorophyll fluorescence peak to reveal additional informa-
+                   to the atmospheric         tion on phytoplankton physiology and health).
+                   science components         Polarimeter Options
+                   of the mission. While
+                   still in the exploratory   PACE may optionally carry a multiangle polarimeter as a secondary instrument,
+                   stages, early results      which would add significant capabilities to the atmospheric science components of the
+                   suggest that polarimetry   mission. While still in the exploratory stages, early results suggest that polarimetry has
+                   has the potential          the potential to make significant contributions to the retrieval of atmospheric charac-
+                   to make significant        teristics and selection of aerosols as part of ocean-color atmospheric correction.
+                   contributions to the
+                   retrieval of atmospheric   With regards to retrieving atmospheric characteristics, a polarimeter allows quanti-
+                   characteristics and        tative retrieval of aerosol scattering optical properties, absorption, size, and particle
+                   selection of aerosols      shape, in addition to the MODIS-OMI heritage of aerosol optical depth, and a less
+                   as part of ocean-color     exact measure of size and absorption. For clouds, polarimetry provides a more exact
+                   atmospheric correction.    measure of cloud droplet size distributions, including the width of the distribution.
+                                              Retrievals of cloud top height and ice cloud phase function are also possible with
+                                              appropriate choices of wavelength bands and angular sampling.
+
+                                              The second area that the addition of a polarimeter would help feeds into the mission’s
+                                              primary objective: ocean color. A PACE polarimeter would provide an unprecedented
+                                              opportunity to develop novel joint ocean-atmosphere retrievals that may improve
+                                              upon or enhance traditional ocean color atmospheric correction and provide informa-
+                                              tion on ocean biologic and atmospheric components from a simultaneous inversion.
+                                              Furthermore, polarimetric measurements of the ocean surface may enable estimation
+                                              of the angular distribution of the underwater light field, which could additionally
+                                              shed light on the optical properties of near-surface marine particles.
+
+                                              Several polarimeter options exist as of this writing: no polarimeter; a polarimeter devel-
+                                              opment directed to the NASA/Jet Propulsion Laboratory (JPL); and an open-competed
+                                              (or contributed) polarimeter, with GSFC excluded. Under these options, the Project is
+                                              exploring several measurement concepts—temporal modulation, spectral modulation,
+                                              amplitude splitting, and sequential measurement strategies can all be used to provide
+                                              imaging of both the total and polarized intensity of light. Assuming that a polarimeter
+                                              is added to PACE, it will certainly constitute a significant enhancement to the base
+                                              mission—but it will also increase the technical complexity of the mission.
+
+                                              PACE Mission Organization
+
+                                              Successful implementation of any mission requires close coordination at several orga-
+                                              nizational levels, and PACE is no different. The main responsibility at the project level
+                                              is the responsibility of the PACE Project Science Team (listed in sidebar on page 11),
+                                              with scientific and other responsibilities allocated to the Science Team, the Calibration
+                                              and Validation Team, and the Science Data Processing Team.
+
+The Earth Observer                               July - August 2015                            Volume 27, Issue 4           11
+PACE Science Team
+
+
+
+
+                                                                                                                        feature articles
+The first competed PACE Science Team was awarded and assembled in July 20148.
+This science team will serve three years and is led by Emmanuel Boss [University of
+Maine—PACE Science Team Lead] and Lorraine Remer [University of Maryland,
+Baltimore County—Deputy PACE Science Team Lead]. Team members received fund-                     PACE Project
+ing to complete a variety of individual science inquiries. Team members have also                Science Team
+been working collaboratively in a variety of subgroups to address the science of IOPs
+and their retrieval from space and of atmospheric characterization as it pertains to         Jeremy Werdell
+PACE, including ocean color atmospheric correction.                                          [GSFC—PACE Project
+                                                                                             Scientist]
+The specific goals of the PACE Science Team are to achieve consensus and develop
+community-endorsed paths forward for the PACE instrument(s) for the full spectrum            Antonio Mannino
+of IOP and atmospheric measurements, algorithms and retrievals; and to identify gaps         [GSFC—PACE Deputy
+in knowledge, research, and technologies that should be filled (such that they could be      Project Scientist –
+addressed in future ROSES calls). PACE Science Team members have been conduct-               Oceans]
+ing new and novel studies and evaluating previous studies to assess the merits associ-
+                                                                                             Brian Cairns
+ated with various radiometer and polarimeter features. In addition, the PACE Science
+                                                                                             [Goddard Institute for
+Team has provided input on radiometer and polarimeter specifications. For example,
+                                                                                             Space Studies—PACE
+the Science Team hosted a series of webinars where community experts described new
+                                                                                             Deputy Project Scientist
+and available technologies, their attributes, and the science they will facilitate.
+                                                                                             – Atmospheres]
+PACE Calibration and Validation Team
+                                                                                             Paula Bontempi
+Under a separate solicitation, three proposals were funded in the same time frame to         [NASA Headquarters
+develop prototype, advanced hyperspectral radiometer systems to perform vicarious            (HQ)—PACE Program
+calibration for PACE. This post-launch, on-orbit calibration removes any remaining           Scientist]
+absolute bias in the instrument (and, atmospheric correction algorithm, in the case of
+                                                                                             Hal Maring [NASA
+ocean color). Vicarious calibration remains a critical component of every ocean color
+                                                                                             HQ—PACE Deputy
+mission as no satellite radiometer system can be sufficiently well characterized on
+                                                                                             Program Scientist –
+Earth to provide the accuracy required to derive geophysical products from measured
+                                                                                             Atmospheres]
+radiances once on orbit.
+                                                                                             Woody Turner [NASA
+PACE Science Data Processing Team
+                                                                                             HQ—PACE Applied
+Building on a legacy of ocean color data processing spanning decades, the Ocean              Sciences]
+Biology Processing Group within the GSFC Ocean Ecology Laboratory (oceancolor.
+gsfc.nasa.gov) will maintain responsibility for all science data processing of ocean color
+data products, and their distribution and storage. Similar support for atmospheric sci-
+ence data products from the OCI and potential polarimeter will be determined pend-
+ing the development of an acquisition strategy for the polarimeter.
+
+Societal Benefits
+
+Science for its own sake is not enough to provide the needed support to perform such
+activities. Particularly in a resource-limited environment, benefits to society at large—
+most commonly through applications of the data—must be demonstrated, and PACE
+will amply address this requirement. Specifically, the advanced capabilities of the
+PACE OCI over heritage instruments will enable improvement in the following cat-
+egories of science applications:
+
+Climate: PACE will allow improved mapping, assessment, and understanding
+of climate-relevant biogeochemical concentrations and fluxes; enhanced climate
+model skill and forecasting capabilities; improved support for policy analyses and
+
+8
+  The team resulted from a NASA Research Announcement (NRA), titled Research Opportunities
+in Space and Earth Sciences (ROSES)–2013, implemented by the NASA Solicitation and
+Proposal Integrated Review and Evaluation System (NSPIRES).
+
+    12             The Earth Observer                               July - August 2015                                    Volume 27, Issue 4
+
+
+                                              assessments; and refined design of planning adaptation and response approaches to
+feature articles
+                                              impacts of climate change.
+
+                                              Oceans, coasts, Great Lakes: PACE will support enhanced fisheries and ecosystem
+                                              management; improved monitoring of water quality, hypoxic conditions, eutro-
+                                              phication, and oil spills/seeps; refined detection of harmful algal blooms (HABs);
+                                              improved models of abundances of toxic pollutants, pathogens, and bacteria that
+                                              affect human and ecosystem health; refined monitoring of sea ice extent and pas-
+                                              sages; and enhanced mapping of ocean currents with relevance to fuel economy strat-
+                                              egies for the shipping industry.
+
+                                              Ecological forecasting: PACE will support improved models for forecasting and early
+                                              warning detection of HABs, identification of endangered species, and assessment of
+                   With the PACE mission      biodiversity; and refined data assimilation into ocean models to improve model skill
+                                              and forecasting capabilities.
+                   now moving forward,
+                   NASA anticipates           Water resources: PACE will allow improved assessment of water quality and manage-
+                   extending its ocean        ment of water resources in lakes, estuaries, coastal areas, and over the open ocean.
+                   color data record into a
+                                              Disasters: PACE will enable refined detection, tracking, and assessment of the effects of
+                   third decade with con-
+                                              hurricanes, oil spills and seeps, volcanic ash plumes, and fires, and improve evaluation
+                   tinuous measurements       of the impact of these disasters on marine and terrestrial ecosystems and human health.
+                   of biogeochemical and
+                   cloud and aerosol prop-    Human health and air quality: PACE will support improved air quality monitoring,
+                   erties from specialized    forecasting, and management, and refined assessment of climate change impacts on air
+                   space-borne radiometers    quality and public health.
+                   such as OCI.               Looking Forward
+
+                                              With the PACE mission now moving forward, NASA anticipates extending its ocean
+                                              color data record into a third decade with continuous measurements of biogeochemi-
+                                              cal and cloud and aerosol properties from specialized spaceborne radiometers such as
+                                              OCI. These data records will enable the continued development of CDRs of oceanic
+                                              and atmospheric properties that will further our scientific understanding of Earth’s
+                                              responses to its changing climate and the subsequent impacts of these responses on liv-
+                                              ing marine resources. Furthermore, the large-scale views of the biosphere and atmo-
+                                              sphere that PACE provides will help reveal the roles of the ocean and atmosphere in
+                                              global biogeochemical cycling and how Earth’s changing energy balance both affect
+                                              and are affected by rising atmospheric CO2 levels and changing climate. The PACE
+                                              mission will also complement two additional missions recommended in the 2007
+                                              decadal survey,9 that will support ocean color, land, and cloud and aerosols science: the
+                                              GEOstationary Coastal and Air Pollution Events (GEO-CAPE) mission, which will
+                                              maintain a geostationary orbit that provides continuous views of the Earth’s Western
+                                              Hemisphere, and the Hyperspectral Infrared Imager (HyspIRI) mission, a polar orbiter
+                                              like PACE, but with very small ground pixel sizes (60 m) and reduced temporal cover-
+                                              age for studying land-ocean ecosystems. For more information about GEO-CAPE and
+                                              HyspIRI, visit geo-cape.larc.nasa.gov and hyspiri.jpl.nasa.gov, respectively. 
+
+                                              9
+                                                  To learn more about NASA’s decadal survey, visit science.nasa.gov/earth-science/decadal-surveys.
+

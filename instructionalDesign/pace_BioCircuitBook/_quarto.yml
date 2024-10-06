@@ -1,0 +1,24 @@
+project:
+  type: book
+
+  
+book:
+  title: "Hands-On Learning with Pace"
+  author: "Biocircuits Limited"
+  cover-image: images/cover.png
+  site-url: https://github.com/thejellis/nasaspaceapps2024clt_PACE_ppj
+  repo-url: https://github.com/thejellis/nasaspaceapps2024clt_PACE_ppj
+  repo-branch: main
+  repo-actions: [edit]
+  sharing: [twitter, facebook, linkedin]
+  chapters:
+    - index.qmd
+    
+    - part: dice.qmd
+ 
+
+format:
+  html: 
+    theme: cosmo
+    cover-image: cover.png
+    code-link: true
